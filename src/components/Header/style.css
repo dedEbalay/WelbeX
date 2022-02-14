@@ -1,0 +1,48 @@
+.navbar {
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  margin-left: 50px;
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-home-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.navbar-home-link__img {
+  margin-right: 6px;
+  height: 30px;
+}
+
+.navbar-list-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-list-link__img {
+  height: 25px;
+  padding-left: 5px;
+  margin-right: 6px;
+}
+
+.active {
+  color: #b00b69;
+}
+/*# sourceMappingURL=style.css.map */

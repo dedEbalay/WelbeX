@@ -1,0 +1,131 @@
+.toDo-container {
+  margin-left: 356px;
+  width: 100%;
+  height: 100%;
+}
+
+.toDo-list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 80%;
+}
+
+.toDo-list__form {
+  position: relative;
+  max-width: 100%;
+  width: 95%;
+  height: 40px;
+  margin-right: 0;
+}
+
+.toDo-list__form__input {
+  outline: none;
+  overflow: hidden;
+  width: calc( 95% - 210px);
+  height: 100%;
+  padding: 0 230px 0 50px;
+  border: none;
+  background-color: #3b3b3b;
+  color: #fff;
+  font-size: 20px;
+}
+
+.toDo-list__form__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 10%;
+}
+
+.toDo-list__button {
+  width: 95%;
+  height: 40px;
+  background-color: #575656;
+  color: #ece8e8;
+  margin-bottom: 30px;
+}
+
+.toDo-list__item {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  font-size: 21px;
+  padding: 10px 70px;
+}
+
+.toDo-list__item__form {
+  position: relative;
+  height: 30px;
+  width: 70%;
+}
+
+.toDo-list__item__form__input {
+  font-size: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  border: none;
+  background-color: #464444;
+  color: #fff;
+  max-width: 100%;
+  padding: 0 100px 0 30px;
+  height: 100%;
+  width: calc( 100% - 130px);
+  margin: 0;
+}
+
+.toDo-list__item__form__button {
+  border: none;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.toDo-list__item-wrapper {
+  width: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.toDo-list__item-flag {
+  height: 100%;
+  width: 30px;
+}
+
+.toDo-list__item-edit {
+  height: 100%;
+}
+
+.toDo-list__item-delete {
+  height: 100%;
+}
+
+.flagged {
+  background-color: #222222;
+  color: #b9b2b2;
+}
+
+.hide {
+  display: none;
+}
+
+.loading {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=style.css.map */

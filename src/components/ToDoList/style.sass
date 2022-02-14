@@ -1,0 +1,89 @@
+.toDo
+    &-container
+        margin-left: 356px
+        width: 100%
+        height: 100%
+    &-list
+        overflow-y: scroll
+        overflow-x: hidden
+        height: 80%
+        &__form
+            position: relative
+            max-width: 100%
+            width: 95%
+            height: 40px
+            margin-right: 0
+            &__input
+                outline: none
+                overflow: hidden
+                width: calc( 95% - 210px )
+                height: 100%
+                padding: 0 230px 0 50px
+                border: none
+                background-color: #3b3b3b
+                color: #fff
+                font-size: 20px
+            &__button
+                position: absolute
+                top: 0
+                right: 0
+                height: 100%
+                width: 10%
+        &__button
+            width: 95%
+            height: 40px
+            background-color: #575656
+            color: #ece8e8
+            margin-bottom: 30px
+        &__item
+            justify-content: space-between
+            display: flex
+            height: 30px
+            font-size: 21px
+            padding: 10px 70px
+            &__form
+                position: relative
+                height: 30px
+                width: 70%  
+                &__input
+                    font-size: 22px
+                    position: absolute
+                    top: 0
+                    left: 0
+                    outline: none
+                    border: none
+                    background-color: #464444
+                    color: #fff
+                    max-width: 100%
+                    padding: 0 100px 0 30px
+                    height: 100%
+                    width: calc( 100% - 130px )
+                    margin: 0
+                &__button
+                    border: none
+                    height: 100%
+                    margin: 0
+                    position: absolute
+                    top: 0
+                    right: 0
+            &-wrapper
+                width: 3%
+                display: flex
+                justify-content: space-between
+            &-flag
+                height: 100%
+                width: 30px
+            &-edit
+                height: 100%
+            &-delete
+                height: 100%
+.flagged
+    background-color: #222222
+    color: #b9b2b2
+
+.hide
+    display: none
+
+.loading
+    justify-self: center
+    align-self: center
